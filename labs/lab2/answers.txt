@@ -1,0 +1,19 @@
+Problem 1:
+	Line 249
+	Both indices of invaders were invaderRow. Later on, though, the second index was invaderCol.
+	I changed invaders[invaderRow][invaderRow] to invaders[invaderRow][invaderCol].
+
+Problem 2:
+	Line 27
+	There was a semicolon after the for statement.
+	I deleted the semicolon.
+
+Problem 3:
+	Line 62
+	There is no code to update the colIdx variable so it remains 0 and then the condition is always true.
+	I added colIdx++ to the for loop.
+
+Problem 4:
+	Line 218
+	The deallocation call for protectors was the same as invaders with n rows and m columns even though they are sideways.
+	I switched m and n in the deallocation call for invaders.
