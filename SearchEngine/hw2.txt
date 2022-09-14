@@ -1,0 +1,26 @@
+Problem 1 - More Git Questions
+	Part (a): unmodified
+	Part (b): modified
+	Part (c): staged
+	Part (d): modified
+	Part (e): staged, fun_problem.txt is blank because "git checkout --" discards uncommitted changes to the file, so since "echo "So far, so good"" was uncommitted, it gets discarded and no other modifications had been made to fun_problem.txt.
+	Part (f): modified
+
+Problem 2 - Makefiles
+	Part (a): 1.TAB
+	Part (b): make clean runs: rm -f *.o *~ shape1 shape2 *~, deletes anything that includes .o as well as all shape1 and shape2
+Make shape1 runs: shape.cpp shape.h g++ -I$(IDIR) -std=c++11 -ggdb -c shape.cpp shape.o
+shape1.cpp shape.h g++ -I$(IDIR) -std=c++11 -ggdb -c shape1.cpp shape1.o
+g++ -I$(IDIR) -std=c++11 -ggdb shape1.o shape.o shape1 -lm
+	Part (c): It tells make that clean is not associated with a file.
+	Part (d): 2. Makefile, 4. makefile
+
+Problem 3 - Linked List Recursion Tracing
+	Question a: 1 5 2 6 3
+	Question b: 2
+
+Problem 4 - ADTs:
+	1. A list of strings (written instructions for each step). Ordering of items matters when following a recipe. Can also be repeated items (i.e. mix before adding eggs and again afterwards). Possibly a vector because we probably don't need to allow insertions/deletions into the middle/front of the recipe.
+	2. A set with the keys being the station identifiers. Each identifier has to be unique but their ordering isn't important.
+	3. A map where the keys are player names and the values are the team they play for. Names are considered to be unique so perfect for keys and provides easy lookup of the value (team) based on the name.
+	4. A map where the keys are file extensions and the values are sets of programs. File extensions will be unique and map allows for easy lookup of file extension and then displays associated value (that are able to read/open that kind of file). For the set (value), the keys would be the programs (assuming each program has a unique name). Order doesn't matter and no need for repeats of programs in each set.

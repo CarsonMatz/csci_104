@@ -1,0 +1,29 @@
+Problem 1:
+	Part (a):
+		Looking up relevant C++ reference information online.
+		Talking to my classmates about general approaches about the problems (but no specific coding statements or description of your own code or someone else’s code).
+		Asking the course staff for help.
+	Part (b):
+		Complete the regrade request form within 1 week of receiving the grade and wait for an issue to be posted to your Github repo.
+		Visit the designated regrade TA within 1 week of your score posting.
+	Part (c):
+		Each student has 5 late days of which only 2 can be used per HW.
+	Part (d):
+		Clone your repo to a temporary folder to ensure all the files you desire are pushed and that your code compiles.
+		Complete the online submission page using your FULL (30 or more digit) SHA.
+	Part (e):
+		None. We will not accept your submission.
+	Part (f):
+		1. True
+		2. False
+		3. True
+Problem 2:
+	Part (a):
+		Cloning into a folder that itself is a git repo.
+		Cloning into a sync’ed folder like Dropbox or Google Drive.
+	Part (b):
+		1. git add hw1q2b.cpp
+		2. git log
+	Part (c):
+		git clone git@github.com:usc-csci104-spring2022/hw-cmatz.git
+
